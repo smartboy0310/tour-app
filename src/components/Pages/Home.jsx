@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import GoTop from '../GoTop';
 import Navbar from '../Navbar'
 import SliderImage from '../slider/SliderImage';
-import { SliderData } from '../slider/SliderData';
+
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
       <Navbar />
       <HeroSection />      
       <Cards />
-      <SliderImage/>
+      <SliderImage />
       <Footer />
       <GoTop />
       

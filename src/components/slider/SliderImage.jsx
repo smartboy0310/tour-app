@@ -3,20 +3,22 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import "slick-carousel/slick/slick-theme.css"
 import { SliderData } from './SliderData'
-import {ArrowBackIos, ArrowForwarIos} from '@material-ui/icons'
+import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import './SliderImage.css'
 
 const PreviousBtn = (props) => {
+   const {className, onClick} = props
    return (
-      <div className="">
-         <ArrowBackIos/>
+      <div className={className}onClick={onClick}>
+         <ArrowBackIos style={{color:"black"}}/>
       </div>
    )
 }
 const NextBtn = (props) => {
+   const {className, onClick} = props
    return (
-      <div className="">
-         <ArrowForwarIos/>
+      <div className={className} onClick={onClick}>
+         <ArrowForwardIos style={{color:"black"}}/>
       </div>
    )
 }
@@ -25,6 +27,9 @@ const SliderImage = () => {
   return (
     <>
       <section className="section-slider">
+         <h2 className="slider-heading">
+            FOTO LAVHALAR
+         </h2>
        <div className="slider">
        <Slider autoplay 
         autoplaySpeed={5000} 
