@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import {useWindowScroll} from 'react-use'
+
 import './GoTop.css'
 
+import goUp from '../Assets/Images/goUp.svg'
 function GoTop() {
 
   const {y: pageYOffset} = useWindowScroll()
@@ -24,7 +26,7 @@ function GoTop() {
   return (
     <>
       <div className="scroll__go-top" onClick={scrollToTop}>
-        <i className='icon far fa-chevron-up'></i>
+        <img className='icons' src={goUp} alt='goto Up-icon'/>
       </div>
     </>
   )

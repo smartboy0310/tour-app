@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+import Main from '../Main';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import GoTop from '../GoTop';
@@ -13,7 +13,7 @@ function Home() {
     <>
       <Navbar />
       <HeroSection />      
-      <Cards />
+      <Main />
       <SliderImage />
       <Footer />
       <GoTop />

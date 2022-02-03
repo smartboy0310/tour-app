@@ -32,7 +32,7 @@ const SliderImage = () => {
          </h2>
        <div className="slider">
        <Slider autoplay 
-        autoplaySpeed={5000} 
+        autoplaySpeed={4000} 
         dots 
         initialSlide={2} 
         infinite

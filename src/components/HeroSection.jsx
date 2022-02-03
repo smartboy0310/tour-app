@@ -1,34 +1,29 @@
-import React from 'react';
+import React ,{ useState} from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
-import heroVideo from '../Assets/videos/video-1.mp4'
+import heroVideo from '../Assets/videos/video-2.mp4';
 
 function HeroSection() {
-  return (
-    <div className='hero-container'>
-      <video src={heroVideo} autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
-      </div>
-    </div>
-  );
+
+  const [video, setVideo] = useState(false)
+
+  const videoShow = () => {
+    if(window.scrollY >=680 ) {
+      setVideo(true)
+    } else {
+      setVideo(false)
+    }
+  }
+
+  window.addEventListener('scroll', videoShow)
+
+	return (
+		<div className={video ? 'show-bg hero-container' : 'hero-container'}>
+			<video className ={video ? 'disactive' : 'video'} src={heroVideo} autoPlay loop muted />
+			<h1>WELCOME TO UZBEKISTAN</h1>
+			<p>What are you waiting for?</p>
+		</div>
+	);
 }
 
 export default HeroSection;

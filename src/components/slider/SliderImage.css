@@ -24,7 +24,7 @@
 } 
 .slider-heading {
    margin: 0;
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    padding: 0;
    font-size: 60px;
    font-style: bold;
@@ -32,13 +32,13 @@
 }
 .section-slider{
    margin: 0 auto;
-   background-color: #fff;
+ 
    padding-top: 10px;
    padding-bottom: 70px;
    text-align: center;
 }
 .slider {
-   width: 1000px;
+   width: 65%;
    margin: 0 auto;
    text-align: center;
 }

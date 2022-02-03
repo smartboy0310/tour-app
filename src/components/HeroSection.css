@@ -6,9 +6,11 @@ video {
    top: 0;
    z-index: -1;
  }
+ .disactive {
+    display: none;
+ } 
  
- .hero-container {
-   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+ .hero-container {   
    height: 100vh;
    width: 100%;
    display: flex;
@@ -18,10 +20,10 @@ video {
   
    object-fit: contain;
  }
- 
+  
  .hero-container > h1 {
    color: #fff;
-   font-size: 100px;
+   font-size: 80px;
    margin-top: -100px;
  }
  
