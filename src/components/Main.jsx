@@ -1,13 +1,8 @@
 import React from 'react';
 import './Main.css';
 
-import rowUp from '../Assets/Images/row.png';
+
 import sulUvays from '../Assets/Images/sul-uvays.jpg';
-// import imgOne from '../Assets/Images/img-9.jpg'
-// import imgTwo from '../Assets/Images/img-2.jpg'
-// import imgThree from '../Assets/Images/img-3.jpg'
-// import imgFour from '../Assets/Images/img-4.jpg'
-// import imgFive from '../Assets/Images/img-8.jpg'
 
 function Main() {
 	return (
