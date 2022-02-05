@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Main.css';
-
 
 import sulUvays from '../Assets/Images/sul-uvays.jpg';
 
+import AddInfoCard from './AddInfoCard';
+
 function Main() {
+	
 	return (
 		<>
 			<main className="main">
@@ -12,6 +14,7 @@ function Main() {
 					<h2 className="main-heading">
 						Султон Увайс Қараний зиёратгоҳи
 					</h2>
+
 					<img
 						src={sulUvays}
 						alt="obj info-img"
@@ -19,6 +22,7 @@ function Main() {
 						width={700}
 						height={400}
 					/>
+
 					<h3 className="tema">
 						Тасаввуф таълимоти тарихига бағишланган тазкираларда
 						«Икки жаҳон қуёши», «Яман Юлдузи» деб аталувчи буюк зот
@@ -106,6 +110,7 @@ function Main() {
 						ўрни бор буюк шахсдир.
 					</p>
 				</div>
+				<AddInfoCard />
 			</main>
 		</>
 	);

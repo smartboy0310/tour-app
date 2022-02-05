@@ -1,7 +1,7 @@
 import React ,{ useState} from 'react';
 import '../App.css';
 import './HeroSection.css';
-import heroVideo from '../Assets/videos/video-2.mp4';
+import heroVideo from '../Assets/videos/video-1.mp4';
 
 function HeroSection() {
 

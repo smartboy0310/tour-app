@@ -5,10 +5,13 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+img {
+  object-fit: cover;
+}
 .home,
 .services,
-.products,
-.sign-up {
+.products
+ {
   display: flex;
   height: 90vh;
   align-items: center;

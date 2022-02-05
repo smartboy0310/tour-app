@@ -32,7 +32,7 @@ const SliderImage = () => {
          </h2>
        <div className="slider">
        <Slider autoplay 
-        autoplaySpeed={4000} 
+        autoplaySpeed={3000} 
         dots 
         initialSlide={2} 
         infinite
@@ -54,7 +54,7 @@ const SliderImage = () => {
            {
               SliderData.map((item, index) =>(
                   <div key={index}>
-                     <img className='image-slide' src={item} alt="Obyektlat rasmi" height={500
+                     <img className='image-slide' src={item} alt="Obyektlat rasmi" width = {900}height={450
                      } />
                   </div>
               ))
