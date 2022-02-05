@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Main.css';
 
 import sulUvays from '../Assets/Images/sul-uvays.jpg';
