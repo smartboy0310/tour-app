@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
+import Map from './Map';
 import { Link } from 'react-router-dom';
 import logoImg from '../Assets/Images/logo.jpg'
 
@@ -9,6 +10,9 @@ function Footer() {
     <div className='footer-container'>
      
       <section className='social-media'>
+        <div className="map">
+          <Map />
+        </div>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
