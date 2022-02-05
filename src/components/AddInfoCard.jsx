@@ -84,7 +84,7 @@ function AddInfoCard() {
 										<Link to="#" className="obj-tel">
 											+9989999999
 										</Link>
-										<a to="#" className="obj-address">
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -92,7 +92,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -114,10 +114,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -125,7 +125,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -147,10 +147,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -158,7 +158,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -205,7 +205,10 @@ function AddInfoCard() {
 										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a to="#" className="obj-address">
+										<Link to="#" className="obj-tel">
+											+9989999999
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -213,7 +216,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -235,10 +238,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -246,7 +249,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -268,10 +271,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -279,7 +282,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -326,10 +329,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -337,7 +340,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -359,10 +362,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -370,7 +373,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -392,10 +395,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -403,64 +406,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</li>
-				<li className="add-info__item">
-					<div className="add-info__header">
-						<img
-							src={imgHospital}
-							alt="near bank"
-							className="near-obj"
-							width={40}
-							height={40}
-						/>
-						<h3 className="near-obj-heading">
-							The nearest hospitals
-						</h3>
-						<img
-							src={imgShowHospital ? imgPlus : imgClose}
-							alt="add info show"
-							className="add-info__show"
-							onClick={showImgHospital}
-							width={30}
-							height={30}
-						/>
-					</div>
-               <ul className={imgShowHospital ? 'add-info__card' : 'add-info__card close-card'}>
-						<li className="add-info__card-item">
-							<div className="add-info__box">
-								<img
-									src={imgHotel}
-									alt="info box"
-									className="info-box__img"
-									width={40}
-									height={40}
-								/>
-								<div className="info-box__dic">
-									<h4 className="info-box-heading">
-										Hotel name
-									</h4>
-									<p className="info-box__paragraph">
-										Lorem ipsum dolor sit amet.
-									</p>
-									<div className="obj-content">
-										<a to="#" className="obj-tel">
-											+9989999999
-										</a>
-										<a to="#" className="obj-address">
-											<img
-												src={imgLocation}
-												alt="obj location"
-												className="obj-location"
-												width={30}
-												height={30}
-											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -482,10 +428,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -493,7 +439,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -515,10 +461,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a to="#" className="obj-tel">
+									<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a to="#" className="obj-address">
+										</Link>
+										<Link to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -526,7 +472,7 @@ function AddInfoCard() {
 												width={30}
 												height={30}
 											/>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
