@@ -80,10 +80,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -113,10 +113,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -146,10 +146,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -201,10 +201,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -234,10 +234,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -267,10 +267,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -325,10 +325,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -358,10 +358,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -391,10 +391,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -448,10 +448,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -481,10 +481,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -514,10 +514,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="" className="obj-tel">
+										<a href="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="" className="obj-address">
+										<a href="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
