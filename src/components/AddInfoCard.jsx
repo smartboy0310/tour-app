@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import imgPlus from '../Assets/Images/plus.svg';
 import imgClose from '../Assets/Images/close.svg';
 import imgBank from '../Assets/Images/bank.svg';
@@ -80,10 +81,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<Link to="#" className="obj-tel">
 											+9989999999
-										</a>
-										<a href="#" className="obj-address">
+										</Link>
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -113,10 +114,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -146,10 +147,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -201,10 +202,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -234,10 +235,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -267,10 +268,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -325,10 +326,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -358,10 +359,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -391,10 +392,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -448,10 +449,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -481,10 +482,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
@@ -514,10 +515,10 @@ function AddInfoCard() {
 										Lorem ipsum dolor sit amet.
 									</p>
 									<div className="obj-content">
-										<a href="#" className="obj-tel">
+										<a to="#" className="obj-tel">
 											+9989999999
 										</a>
-										<a href="#" className="obj-address">
+										<a to="#" className="obj-address">
 											<img
 												src={imgLocation}
 												alt="obj location"
