@@ -8,7 +8,7 @@ function HeroSection() {
   const [video, setVideo] = useState(false)
 
   const videoShow = () => {
-    if(window.scrollY >=680 ) {
+    if(window.scrollY >=1000 ) {
       setVideo(true)
     } else {
       setVideo(false)
