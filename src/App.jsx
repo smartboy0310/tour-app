@@ -8,6 +8,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" exact element={<Province />} />
+				
 			</Routes>
 		</BrowserRouter>
 	);

@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainProvince.css';
 import arrowImg from '../Assets/Images/row.png';
+import SanctuaryCard from './SanctuaryCard.jsx';
 
 function MainProvice() {
 	return (
@@ -57,15 +58,13 @@ function MainProvice() {
 						Rossiya davlatlariga chiqish imkoniyati mavjud.
 					</p>
 					
-					<div className="nature-info">
-						<img src={arrowImg} alt="Arrow top" className="arrow-img-top" />
-						<div className="nature">
-						
-						</div>
-						<img src={arrowImg} alt="Arrow top" className="arrow-img-bottom" />
-					</div>
+					
 					
 				</div>
+				<div className="nature-info">
+						
+				</div>
+				<SanctuaryCard />
 			</main>
 		</>
 	);
