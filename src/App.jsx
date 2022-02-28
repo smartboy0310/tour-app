@@ -7,8 +7,9 @@ function App() {
 	return (
 		
 			<Routes className = 'routers'>
-				<Route path="/" element={<Province />} />
+				
 				<Route path="/shrine"  element={<Sanctuary />} />	
+				<Route path="/" element={<Province />} />
 			</Routes>
 		
 	);

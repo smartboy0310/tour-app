@@ -5,7 +5,7 @@
   width: 100%;
   margin-bottom: -7px;
 }
-.main-info {
+.main-provice-info{
   position: relative;
   width: 100%;  
   background-color: #fff; 
@@ -28,8 +28,7 @@
 }
 .nature-info {
   position: relative;
-  width: 100%;
-  
+  width: 100%;  
   height: 800px;
   background-image: url('../Assets/Images/ustyurt.png');
   background-repeat: no-repeat;
