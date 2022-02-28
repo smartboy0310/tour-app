@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Province from './components/Pages/Province';
-
+import { Routes, Route } from 'react-router-dom';
+import Province from './Pages/Province';
+import Sanctuary from './Pages/Sanctuary'
 function App() {
 	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" exact element={<Province />} />
-				
+		
+			<Routes className = 'routers'>
+				<Route path="/" element={<Province />} />
+				<Route path="/shrine"  element={<Sanctuary />} />	
 			</Routes>
-		</BrowserRouter>
+		
 	);
 }
 

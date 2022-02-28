@@ -17,13 +17,13 @@ function SanctuaryCard() {
               src={sulUvaysImg}
               text='Султон Увайс Қараний зиёратгоҳи'
               label='Shrine'
-              path='/services'
+              path='/shrine'
             />
             <CardItem
               src={berdaqMusImg}
               text='Бердақ миллий музейи'
               label='Museum'
-              path='/services'
+              path='/shrine'
             />
           </ul>
           <ul className='cards__items'>
@@ -31,19 +31,33 @@ function SanctuaryCard() {
               src={dauitOtaImg}
               text='«ДАУИТ АТА МАҚБАРАСИ» АРХИТЕКТУРА ЁДГОРЛИГИ'
               label='Monument'
-              path='/services'
+              path='/shrine'
             />
             <CardItem
               src={mazlumxanImg}
               text='«МАЗЛУМХАН СУЛУВ МАҚБАРАСИ» АРХИТЕКТУРА ЁДГОРЛИГИ'
               label='Monument'
-              path='/products'
+              path='/shrine'
             />
             <CardItem
               src={xakimOtaImg}
               text='«ҲАКИМ OTA МАҚБАРАСИ» АРХИТЕКТУРА ЁДГОРЛИГИ'
               label='Shrine'
-              path='/sign-up'
+              path='/shrine'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src={sulUvaysImg}
+              text='Султон Увайс Қараний зиёратгоҳи'
+              label='Shrine'
+              path='/shrine'
+            />
+            <CardItem
+              src={berdaqMusImg}
+              text='Бердақ миллий музейи'
+              label='Museum'
+              path='/shrine'
             />
           </ul>
         </div>

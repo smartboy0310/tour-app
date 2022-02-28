@@ -6,10 +6,11 @@ import SanctuaryCard from './SanctuaryCard.jsx';
 function MainProvice() {
 	return (
 		<>
-			<main className="main">
-				<div className="main-top">
+			<div className="main-top">
 					<img src={arrowImg} alt="Arrow top" className="arrow-img" />
 				</div>
+			<main className="main-provice">
+				
 				<div className="main-info">
 					<h2 className="heading">Qoraqalpog'iston Respublikasi</h2>
 					<p className="description">
@@ -60,9 +61,6 @@ function MainProvice() {
 					
 					
 					
-				</div>
-				<div className="nature-info">
-						
 				</div>
 				<SanctuaryCard />
 			</main>
