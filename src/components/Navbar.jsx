@@ -2,28 +2,16 @@ import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logoImg from '../Assets/Images/logo.jpg'
+import myTrip from '../Assets/Images/my-trip.svg'
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  //const [button, setButton] = useState(true);
   const [navbar, setNavbar] = useState(false)
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
- 
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
-
-  // window.addEventListener('resize', showButton);
 
   const navBarBack = () => {
     if(window.scrollY >=100) {
@@ -49,28 +37,44 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Bosh sahifa
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='#country'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Shaharlar
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/contacts'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Kontakt
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Biz haqimizda
               </Link>
             </li>
           </ul>
+          <div className="my-trip">
+            <img className='my-trip__img'  src={myTrip} alt="Bookmarks" width={35} height={35} />
+          </div>
+          <form >
+            <input className='search' type="text" placeholder='Search...' />
+         </form>
+          
         </div>
         
       </nav>

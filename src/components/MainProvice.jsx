@@ -61,7 +61,7 @@ function MainProvice() {
 						
 					</div>
 				</div>
-				<SanctuaryCard />
+				<SanctuaryCard id = 'country'/>
 			</main>
 		</>
 	);

@@ -8,7 +8,7 @@ import mazlumxanImg from '../Assets/Images/mazlumxan.jpg'
 import xakimOtaImg from '../Assets/Images/xakim-ota.jpg'
 function SanctuaryCard() {
 	return (
-		<div className='cards'>
+		<div  className='cards'>
       <h1>Ancient shrine monuments!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
