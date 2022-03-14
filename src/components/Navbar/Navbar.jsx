@@ -1,8 +1,8 @@
 import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logoImg from '../Assets/Images/logo.jpg'
-import myTrip from '../Assets/Images/my-trip.svg'
+import logoImg from '../../Assets/Images/logo.jpg'
+import myTrip from '../../Assets/Images/my-trip.svg'
 
 
 function Navbar() {

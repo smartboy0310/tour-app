@@ -3,7 +3,7 @@ import {useWindowScroll} from 'react-use'
 
 import './GoTop.css'
 
-import goUp from '../Assets/Images/goUp.svg'
+import goUp from '../..//Assets/Images/goUp.svg'
 function GoTop() {
 
   const {y: pageYOffset} = useWindowScroll()

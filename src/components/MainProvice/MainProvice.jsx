@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainProvince.css';
-import arrowImg from '../Assets/Images/row.png';
-import SanctuaryCard from './SanctuaryCard.jsx';
+import arrowImg from '../../Assets/Images/row.png';
+import SanctuaryCard from '../SanctuaryCard/SanctuaryCard.jsx';
 
 function MainProvice() {
 	return (

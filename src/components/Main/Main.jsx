@@ -1,9 +1,9 @@
 import React from 'react';
 import './Main.css';
 
-import sulUvays from '../Assets/Images/sul-uvays.jpg';
+import sulUvays from '../../Assets/Images/sul-uvays.jpg';
 
-import AddInfoCard from './AddInfoCard';
+import AddInfoCard from '../AddInfoCard/AddInfoCard';
 
 function Main() {
 	

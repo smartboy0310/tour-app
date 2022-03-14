@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
 
-import Map from './Map';
+import Map from '../Map/Map';
 import { Link } from 'react-router-dom';
-import logoImg from '../Assets/Images/logo.jpg'
+import logoImg from '../../Assets/Images/logo.jpg'
 
 function Footer() {
   return (

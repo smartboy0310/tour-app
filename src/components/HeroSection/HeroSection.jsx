@@ -1,9 +1,9 @@
 import React ,{ useState} from 'react';
-import '../App.css';
-import './HeroSection.css';
-import heroVideo from '../Assets/videos/video-2.mp4';
 
-function HeroSectionProvince() {
+import './HeroSection.css';
+import heroVideo from '../../Assets/videos/video-1.mp4';
+
+function HeroSection() {
 
   const [video, setVideo] = useState(false)
 
@@ -20,8 +20,10 @@ function HeroSectionProvince() {
 	return (
 		<div className={video ? 'show-bg hero-container' : 'hero-container'}>
 			<video className ={video ? 'disactive' : 'video'} src={heroVideo} autoPlay loop muted />
+			<h1>WELCOME TO UZBEKISTAN</h1>
+			<p>What are you waiting for?</p>
 		</div>
 	);
 }
 
-export default HeroSectionProvince;
+export default HeroSection;

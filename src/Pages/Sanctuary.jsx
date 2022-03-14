@@ -1,12 +1,11 @@
 import React from 'react';
-import '../App.css';
-import Main from '../components/Main';
-import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
-import GoTop from '../components/GoTop';
-import Navbar from '../components/Navbar'
-import SliderImage from '../components/slider/SliderImage';
-import Help from '../components/Help';
+import Main from '../components/Main/Main';
+import HeroSection from '../components/HeroSection/HeroSection';
+import Footer from '../components/Footer/Footer';
+import GoTop from '../components/GoTop/GoTop';
+import Navbar from '../components/Navbar/Navbar'
+import SliderImage from '../components/Slider/SliderImage';
+import Help from '../components/Help/Help';
 
 
 function Sanctuary() {

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import imgPlus from '../Assets/Images/plus.svg';
-import imgClose from '../Assets/Images/close.svg';
-import imgBank from '../Assets/Images/bank.svg';
-import imgHotel from '../Assets/Images/hotel.svg';
-import imgRestaurant from '../Assets/Images/restaurant.svg';
-import imgHospital from '../Assets/Images/hospital.svg';
-import imgLocation from '../Assets/Images/location.svg';
+import imgPlus from '../../Assets/Images/plus.svg';
+import imgClose from '../../Assets/Images/close.svg';
+import imgBank from '../../Assets/Images/bank.svg';
+import imgHotel from '../../Assets/Images/hotel.svg';
+import imgRestaurant from '../../Assets/Images/restaurant.svg';
+import imgHospital from '../../Assets/Images/hospital.svg';
+import imgLocation from '../../Assets/Images/location.svg';
 
 function AddInfoCard() {
 	const [imgShowBank, setImgShowBank] = useState(true);
