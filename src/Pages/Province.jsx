@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-import HeroSectionProvince from '../Components/HeroSection/HeroSectionProvince';
-import Footer from '../Components/Footer/Footer';
-import GoTop from '../Components/GoTop/GoTop';
-import Navbar from '../Components/Navbar/Navbar'
-import Help from '../Components/Help/Help';
-import MainProvice from '../Components/MainProvice/MainProvice';
+import HeroSectionProvince from '../components/HeroSection/HeroSectionProvince';
+import Footer from '../components/Footer/Footer';
+import GoTop from '../components/GoTop/GoTop';
+import Navbar from '../components/Navbar/Navbar'
+import Help from '../components/Help/Help';
+import MainProvice from '../components/MainProvice/MainProvice';
 
 
 function Province() {
