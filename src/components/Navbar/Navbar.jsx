@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logoImg from '../../Assets/Images/logo.jpg'
 import myTrip from '../../Assets/Images/my-trip.svg'
+import searchImg from '../../Assets/Images/search.svg'
 
 
 function Navbar() {
@@ -42,7 +43,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='#country'
+                to='/country'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -69,11 +70,15 @@ function Navbar() {
             </li>
           </ul>
           <div className="my-trip">
-            <img className='my-trip__img'  src={myTrip} alt="Bookmarks" width={35} height={35} />
+            <Link to ='/bookmarks'>
+             <img className='my-trip__img'  src={myTrip} alt="Bookmarks" width={25} height={25} />
+            </Link>
           </div>
-          <form >
-            <input className='search' type="text" placeholder='Search...' />
-         </form>
+          <div className="search">
+            <Link to = '/search'>
+              <img src={searchImg} alt="" className="search__img" width={25} height={25}/>
+            </Link>
+          </div>
           
         </div>
         

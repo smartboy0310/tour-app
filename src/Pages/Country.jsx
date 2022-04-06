@@ -1,26 +1,24 @@
 import React from 'react';
-import Main from '../components/MainShrine/MainShrine';
-import HeroSection from '../components/HeroSection/HeroSection';
 import Footer from '../components/Footer/Footer';
 import GoTop from '../components/GoTop/GoTop';
 import Navbar from '../components/Navbar/Navbar'
-import SliderImage from '../components/slider/SliderImage';
+import Countrys  from '../components/Country/Country';
 import Help from '../components/Help/Help';
 
 
-function Sanctuary() {
+function Country() {
   return (
-    <>
+    <div>
+       <>
       <Navbar />
-      <HeroSection />      
-      <Main />
-      <SliderImage />
+      <Countrys />      
       <Footer />
       <GoTop />
       <Help />
       
     </>
-  );
+    </div>
+  )
 }
 
-export default Sanctuary;
+export default Country

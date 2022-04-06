@@ -1,20 +1,20 @@
 import React from 'react';
-import Main from '../components/MainShrine/MainShrine';
-import HeroSection from '../components/HeroSection/HeroSection';
+import '../App.css';
+
 import Footer from '../components/Footer/Footer';
 import GoTop from '../components/GoTop/GoTop';
 import Navbar from '../components/Navbar/Navbar'
-import SliderImage from '../components/slider/SliderImage';
 import Help from '../components/Help/Help';
+import HeroSectionHome from '../components/HeroSection/HeroSectionHome';
+import Main from '../components/Main/Main';
 
 
-function Sanctuary() {
+function Home() {
   return (
     <>
       <Navbar />
-      <HeroSection />      
-      <Main />
-      <SliderImage />
+      <HeroSectionHome />  
+      <Main/>    
       <Footer />
       <GoTop />
       <Help />
@@ -23,4 +23,4 @@ function Sanctuary() {
   );
 }
 
-export default Sanctuary;
+export default Home;
