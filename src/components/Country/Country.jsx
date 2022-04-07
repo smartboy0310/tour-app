@@ -35,6 +35,8 @@ function Country() {
 													src={e.image}
 													alt={e.name}
 													className="country__img"
+													width={300}
+													height={300}
 												/>
 											</li>
 											<li className="sub__item">

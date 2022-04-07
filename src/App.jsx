@@ -6,6 +6,7 @@ import Sanctuary from './Pages/Sanctuary'
 import Home from './Pages/Home';
 import  Search  from './Pages/Search';
 import Country from './Pages/Country';
+import Essentail from './Pages/Essential';
 function App() {
 	return (
 		
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/province" element={<Province />} />
 				<Route path="/search" element = {<Search />}	/>
 				<Route path='/country' element = {<Country />} />
+				<Route path="/essential" element = {<Essentail />} />
 				<Route path="/" element={<Home/>} />
 			</Routes>
 		

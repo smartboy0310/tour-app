@@ -52,6 +52,15 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
+                to='/essential'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Muhim ma'lumotlar
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
                 to='/contacts'
                 className='nav-links'
                 onClick={closeMobileMenu}

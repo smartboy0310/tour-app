@@ -44,7 +44,7 @@ const SliderImage = () => {
         }
         customPaging={(i)=>{
            return(
-              <div>
+              <div key={i}>
                   <img className='sub-image' src={SliderData[i]} alt="" />
               </div>
            )

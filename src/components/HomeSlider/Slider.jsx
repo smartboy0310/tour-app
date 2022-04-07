@@ -26,8 +26,8 @@ const NextBtn = (props) => {
 const SliderImage = () => {
 	return (
 		<>
-			<section className="section-slider">
-				<div className="slider">
+			<section className="home-slider-section">
+				<div className="home-slider">
 					<Slider
 						autoplay
 						autoplaySpeed={3000}
@@ -37,21 +37,21 @@ const SliderImage = () => {
 						nextArrow={<NextBtn />}
 					>
 						{SliderData.map((item, index) => (
-							<div className="image-box">
-								<div className="sliders one" key={index}>
+							<div className="home-image-box">
+								<div className="home-sliders one" key={index}>
 									<Link to="/shrine">
 										<img
-											className="image-slide"
+											className="home-image-slide"
 											src={item}
 											alt="Obyektlat rasmi"
 											width={625}
 											height={500}
 										/>
-										<div className="slider-info">
-											<h2 className="slide-title">
+										<div className="home-slider-info">
+											<h2 className="home-slide-title">
 												Lorem ipsum dolor sit amet.
 											</h2>
-											<p className="slider-discription">
+											<p className="home-slider-discription">
 												Lorem ipsum dolor sit, amet
 												consectetur adipisicing elit.
 												Quos, alias.
@@ -59,10 +59,10 @@ const SliderImage = () => {
 										</div>
 									</Link>
 								</div>
-								<div className="sliders" key={index}>
+								<div className="home-sliders" key={index + 1}>
 									<Link to="/shrine">
 										<img
-											className="image-slide"
+											className="home-image-slide"
 											src={
 												index + 1 < 5
 													? SliderData[index + 1]
@@ -72,11 +72,11 @@ const SliderImage = () => {
 											width={625}
 											height={500}
 										/>
-										<div className="slider-info">
-											<h2 className="slide-title">
+										<div className="home-slider-info">
+											<h2 className="home-slide-title">
 												Lorem ipsum dolor sit amet.
 											</h2>
-											<p className="slider-discription">
+											<p className="home-slider-discription">
 												Lorem ipsum dolor sit, amet
 												consectetur adipisicing elit.
 												Quos, alias.

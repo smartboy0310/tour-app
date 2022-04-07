@@ -8,12 +8,14 @@ function Main() {
 		<>
 			<main className="main">
 				<section className="top-shrine">
+					<div className="container">
 					<div className="main__top--shrines">
 						<h2 className="main-heading">Top Ziyoratgohlar</h2>
 						<p className="main-description">
 							O’zbekistonning shonli tarixi haqida siz bilgan va
 							bilmagan faktlar
 						</p>
+					</div>
 					</div>
 					<Slider />
 				</section>
