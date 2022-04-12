@@ -5,6 +5,8 @@ import Slider from '../HomeSlider/Slider';
 import gameOne from '../../Assets/Images/game_one.png';
 import gameTwo from '../../Assets/Images/game_two.png';
 import gameThree from '../../Assets/Images/game_three.png';
+import NationalFoods from './NationalFoods';
+import CountryBox from './CountryBox';
 
 function Main() {
 	return (
@@ -31,7 +33,7 @@ function Main() {
 						</p>
 						<div className="game-box">
 							<img
-							className='game-one'
+							className='game game-one'
 								src={gameOne}
 								alt="Kupkari game"
 								width={451}
@@ -40,13 +42,14 @@ function Main() {
 							<div className="game-info">
 								<div className="game-img-box">
 									<img
-									className='game-two'
+									className='game game-two'
 										src={gameTwo}
 										alt="Chillak game"
 										width={320}
 										height={260}
 									/>
 									<img
+									className='game'
 										src={gameThree}
 										alt="Tug of war game"
 										width={320}
@@ -68,6 +71,8 @@ function Main() {
 						</div>
 					</div>
 				</section>
+				<NationalFoods />
+				<CountryBox />
 			</main>
 		</>
 	);

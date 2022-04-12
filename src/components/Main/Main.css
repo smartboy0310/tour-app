@@ -58,6 +58,13 @@
 	display: flex;
 	align-items: flex-start;	
 }
+.game {
+	transition: ease-in-out 0.7s all;
+}
+.game:hover {
+	transform: scale(1.1);
+	transition: ease-in-out 0.7s all;
+}
 .game-one {
 	margin-right: 50px;
 }
@@ -92,4 +99,62 @@
 	background-color: #fff;
 	border: 2px solid #08a07f;
 	cursor: pointer;
+}
+
+
+.food-heading {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.food-description {
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #333333;
+	opacity: 0.6;
+}
+
+.country-list {
+	display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 40px;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.country-img {
+	border-radius: 5px;
+}
+
+.counrty-box-heading {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.counrty-box-description {
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	color: #333333;
+	opacity: 0.6;
 }
